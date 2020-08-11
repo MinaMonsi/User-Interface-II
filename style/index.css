@@ -133,3 +133,13 @@ video {
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 800px) {
+  body {
+    background: gray;
+  }
+@media (max-width: 500px){
+  body {
+    background: rgb(255, 0, 200);
+  }
+}
