@@ -36,16 +36,21 @@
   background: #125688;
   color: white;
 }
-
 main {
   padding: 250px 50px;
   color: mediumvioletred;
 }
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
+  background-color: slategrey;
+}
+
+.contact {
+  background-color: slategray;
 }
 
 .introduction {
@@ -63,11 +68,12 @@ h1 {
 nav {
   padding: 20px;
   text-align: center;
+  background-color: slategrey;
 }
 
 a {
   border-radius: 10%;
-  background-color: turquoise;
+  background-color: mediumvioletred;
   color: white;
   margin: 0px;
   align-content: center;
