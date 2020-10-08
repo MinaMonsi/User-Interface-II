@@ -5,7 +5,38 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  border: 1px solid grey; /*Remove before submitting project*/
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 .headerDiv {
