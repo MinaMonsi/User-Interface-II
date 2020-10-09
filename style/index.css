@@ -1,12 +1,11 @@
 /* Add CSS styling here */
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   max-width: 100%;
   border: 1px solid grey; /*Remove before submitting project*/
-}
 
 .fa {
   padding: 20px;
@@ -36,9 +35,16 @@
   background: #125688;
   color: white;
 }
+
+body {
+  background-image: url(https://image.freepik.com/free-vector/purple-ornamental-background_1095-117.jpg);
+  background-size: cover;
+}
+
 main {
   padding: 250px 50px;
-  color: mediumvioletred;
+  color: whitesmoke;
+  text-align: center;
 }
 
 footer {
@@ -53,29 +59,38 @@ footer {
   background-color: slategray;
 }
 
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 50px;
+}
+
 .introduction {
-  border: 3px solid aqua;
+  border: 3px solid grey;
   display: flex;
   align-items: center;
   padding: 20px 50px;
 }
-h1 {
+
+header h1 {
   margin-bottom: 10px;
-  font-size: 40px;
-  color: blue;
+  font-size: 80px;
+  color: whitesmoke;
   text-align: center;
 }
+
 nav {
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   background-color: slategrey;
 }
 
 a {
   border-radius: 10%;
+  padding: 15px;
   background-color: mediumvioletred;
   color: white;
-  margin: 0px;
+  margin: 10px;
   align-content: center;
 }
 
@@ -87,13 +102,19 @@ a:hover {
 p {
   text-align: center;
   padding: 20px auto;
+  color: whitesmoke;
+  font-size: 20px;
 }
 .introduction h2 {
-  color: purple;
+  color: whitesmoke;
   text-align: center;
 }
+
 .introduction p {
-  color: navy;
+  color: whitesmoke;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .projectGallery {
   display: flex;
@@ -101,9 +122,22 @@ p {
   justify-content: space-evenly;
   max-width: 100%;
   height: auto;
+  margin: 20px;
+  padding: 20px;
 }
 
 .bioPic {
+  margin: 20px;
+  padding: 20px;
   display: flex;
   justify-content: center;
+}
+
+address {
+  color: whitesmoke;
+  text-align: center;
+}
+
+address a {
+  background: none;
 }
