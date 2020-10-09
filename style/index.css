@@ -59,37 +59,37 @@ footer {
   background-color: slategray;
 }
 
-h2 {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 50px;
-}
-
 .introduction {
-  border: 3px solid grey;
-  display: flex;
-  align-items: center;
+  /* border: 3px solid grey; */
+  text-align: center;
   padding: 20px 50px;
 }
 
 header h1 {
   margin-bottom: 10px;
-  font-size: 80px;
+  font-size: 90px;
   color: whitesmoke;
   text-align: center;
 }
 
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 70px;
+}
+
 nav {
-  padding: 40px;
+  padding: 50px;
   text-align: center;
   background-color: slategrey;
 }
 
 a {
   border-radius: 10%;
-  padding: 15px;
+  padding: 20px;
   background-color: mediumvioletred;
   color: white;
+  font-size: 20px;
   margin: 10px;
   align-content: center;
 }
@@ -103,11 +103,15 @@ p {
   text-align: center;
   padding: 20px auto;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 30px;
 }
-.introduction h2 {
-  color: whitesmoke;
-  text-align: center;
+
+.headerDiv nav a {
+  font-size: 30px;
+}
+
+.contact a {
+  font-size: 30px;
 }
 
 .introduction p {
@@ -116,6 +120,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 .projectGallery {
   display: flex;
   flex-direction: row;
@@ -124,6 +129,10 @@ p {
   height: auto;
   margin: 20px;
   padding: 20px;
+}
+
+.projectGallery p {
+  font-size: 30px;
 }
 
 .bioPic {
