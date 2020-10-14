@@ -82,6 +82,13 @@ nav {
   text-align: center;
 }
 
+.hamburger {
+  background-color: #191970;
+  border: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
 a {
   border-radius: 10%;
   padding: 20px;
@@ -159,10 +166,19 @@ address a {
   body {
     background-color: slategray;
   }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 500px) {
   body {
     background-color: orchid;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
   }
 }
