@@ -74,6 +74,7 @@ h2 {
 nav {
   padding: 50px;
   text-align: center;
+  width: 100%;
 }
 
 a {
@@ -93,9 +94,6 @@ a:hover {
 
 p {
   text-align: center;
-  padding: 20px auto;
-  color: whitesmoke;
-  font-size: 30px;
 }
 
 .headerDiv nav a {
@@ -125,6 +123,7 @@ p {
 
 .projectGallery p {
   font-size: 20px;
+  color: whitesmoke;
 }
 
 .box5 {
