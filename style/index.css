@@ -59,7 +59,6 @@ footer {
 }
 
 .introduction {
-  /* border: 3px solid grey; */
   text-align: center;
   padding: 20px 50px;
 }
@@ -82,13 +81,6 @@ nav {
   text-align: center;
 }
 
-.hamburger {
-  background-color: #191970;
-  border: 10px;
-  color: white;
-  cursor: pointer;
-  font-size: 30px;
-}
 a {
   border-radius: 10%;
   padding: 20px;
@@ -117,27 +109,27 @@ p {
 
 .contact a {
   font-size: 30px;
+  text-align: center;
 }
 
 .introduction p {
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 40px;
   display: flex;
   flex-direction: column;
 }
 
 .projectGallery {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  max-width: 100%;
+  flex-wrap: wrap;
+  width: 100%;
   height: auto;
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
 }
 
 .projectGallery p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .bioPic {
@@ -155,12 +147,6 @@ address {
 address a {
   background: none;
 }
-
-/* @media (max-width: 500px) {
-  body {
-    background-color: #4b0082;
-  }
-} */
 
 @media (max-width: 800px) {
   body {
