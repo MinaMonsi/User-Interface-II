@@ -51,11 +51,6 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
-  background-color: slategrey;
-}
-
-.contact {
-  background-color: purple;
 }
 
 .introduction {
@@ -130,6 +125,10 @@ p {
 
 .projectGallery p {
   font-size: 20px;
+}
+
+.box5 {
+  margin: 10px auto;
 }
 
 .bioPic {
