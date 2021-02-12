@@ -1,1 +1,152 @@
 /* Add CSS styling here */
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  border: 1px solid grey; /*Remove before submitting project*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+body {
+  background-image: url(https://image.freepik.com/free-vector/purple-ornamental-background_1095-117.jpg);
+  background-size: cover;
+}
+
+main {
+  padding: 250px 50px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: slategrey;
+}
+
+.contact {
+  background-color: slategray;
+}
+
+.introduction {
+  /* border: 3px solid grey; */
+  text-align: center;
+  padding: 20px 50px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 90px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 70px;
+}
+
+nav {
+  padding: 50px;
+  text-align: center;
+  background-color: slategrey;
+}
+
+a {
+  border-radius: 10%;
+  padding: 20px;
+  background-color: mediumvioletred;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  align-content: center;
+}
+
+a:hover {
+  background: white;
+  color: magenta;
+}
+
+p {
+  text-align: center;
+  padding: 20px auto;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.headerDiv nav a {
+  font-size: 30px;
+}
+
+.contact a {
+  font-size: 30px;
+}
+
+.introduction p {
+  color: whitesmoke;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectGallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+}
+
+.projectGallery p {
+  font-size: 30px;
+}
+
+.bioPic {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+address {
+  color: whitesmoke;
+  text-align: center;
+}
+
+address a {
+  background: none;
+}
